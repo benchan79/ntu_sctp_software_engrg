@@ -29,6 +29,10 @@ A software development environment (SDE) is the collection of processes and tool
 ### 5. What is Bash Shell?
 Bash stands for Bourne Again Shell. It is a software and a command interpreter that takes the user's input from the command line in the terminal and executes the intructions.
 
+It also lets you combine commands into a text file called a script. All the commands in the script are executed for you each time you run the script. Scripts deliver efficiency, repeatability, and convenience.
+
+Because of its long service life and massive user base, Bash is mature and very stable. 
+
 Printable pdf Bash cheat sheets
 - https://oit.ua.edu/wp-content/uploads/2020/12/Linux_bash_cheat_sheet-1.pdf
 - https://www.loggly.com/wp-content/uploads/2015/05/Linux-Cheat-Sheet-Sponsored-By-Loggly.pdf
