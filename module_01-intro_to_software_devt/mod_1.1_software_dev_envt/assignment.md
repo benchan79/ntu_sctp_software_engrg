@@ -46,7 +46,7 @@ One way is to remove the width: 100% rule. By default, the div will stretch to f
 }
 ```
 ```
-Another way as the hint suggests is to use apply box-sizing like so:
+Another way as the hint suggests is to apply box-sizing like so:
 ```
 ```
 .child {
