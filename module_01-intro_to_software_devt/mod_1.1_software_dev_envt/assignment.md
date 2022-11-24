@@ -14,8 +14,9 @@ In this assignment, you will learn to use the developer's tool to inspect the el
 
 3. What is the class name of the third element and the content of the css?
 ```
-The class name is elementThree.
-
+The class name is: elementThree.
+```
+```
 The contents are:
 
 .elementThree {
@@ -33,13 +34,27 @@ div:nth-child(6)
 ```
 
 5. What is the code you use to keep the blue box within the purple?
-```
-Remove the width: 100% rule. By default, the div will stretch to fit the parent container.
 
+```
+One way is to remove the width: 100% rule. By default, the div will stretch to fit the parent container.
+```
+```
 .child {
     border: mediumblue 8px solid;
     height: 100%;
     margin: 0;
+}
+```
+```
+Another way as the hint suggests is to use apply box-sizing like so:
+```
+```
+.child {
+    border: mediumblue 8px solid;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    box-sizing: border-box;
 }
 ```
 
