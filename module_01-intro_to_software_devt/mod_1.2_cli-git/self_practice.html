@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Template</title>
+    <style>
+
+      h1:nth-child(2) {
+        color: red;
+      }
+
+      p:nth-child(4) {
+        color: red;
+      }
+
+      div:nth-child(9) {
+        color: red;
+      }
+
+      div {
+        margin: 5px;
+      }
+
+      #four {
+        margin: 60px;
+        border: green solid 10px;
+        padding: 20px;
+        background-color: thistle;
+        border-radius: 30px;
+        /* width: 100%; */
+        box-sizing: border-box;
+      }
+
+      #five {
+        padding-top: 100px;
+        background-color: cyan;
+      }
+
+      .six {
+        padding: 10px;
+        background-color: black;
+        text-shadow: 1px 1px aquamarine;
+        border: gray solid 10px;
+        border-radius: 10px;
+      }
+
+      .parent {
+        border: purple 8px solid;
+        margin: 20px;
+        width: 500px;
+        padding: 10px;
+        background-color: yellow;
+      }
+
+      .child {
+        border: mediumblue 8px solid;
+        padding: 5px;
+        width: 100%;
+        height: 100%;
+        margin: 0px;
+        background-color: pink;
+        /* box-sizing: border-box; */
+      }
+
+      .parent2 {
+        border: purple 8px solid;
+        margin: 20px;
+        width: 500px;
+        padding: 10px;
+        background-color: yellow;
+      }
+
+      .child2 {
+        border: mediumblue 8px solid;
+        padding: 10px;
+        /* width: 100%; */
+        height: 100%;
+        margin: 0;
+        background-color: pink;
+        /* box-sizing: border-box; */
+      }
+
+      .grandchild2 {
+        border: turquoise 8px solid;
+        padding: 10px;
+        /* width: 100%; */
+        height: 100%;
+        margin: 0;
+        background-color: green;
+        /* box-sizing: border-box; */
+      }
+
+      .box {
+        display: flex;
+        flex-direction: row;
+        /* flex-basis: auto; */
+        /* flex-wrap: nowrap; */
+        /* flex-flow: row nowrap; shorthand for flex-direction and flex-wrap properties*/
+        /* justify-content: space-evenly; */
+        /* align-content: center; */
+        align-items: flex-end;
+      }
+      .one {
+        flex: 1 1 auto;
+        order: 3;
+      }
+
+      .two {
+        flex: 2 1 auto;
+      }
+
+      .three {
+        flex: 1 1 auto;
+      }
+      * {
+        outline: 2px solid red !important;
+      }
+
+
+    </style>
+  </head>
+  <body>
+
+    <h1>This follows the default h1 style. </h1>
+
+    <h1>This uses the h1:nth-child(2) selector </h1>
+
+    <p>This follows the default p style.</p>
+
+    <p>This uses p:nth-child(4) selector</p>
+
+    <div>No selector used. This follows the Parent div's style (margin: 50px).</div>
+
+    <div id="four">Four. This uses ID #four selectorLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+    <div id="five">Five. This uses ID #five selector.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+    <div class="six">Six. This uses class div.six selector.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+    <div>Seven. This uses the nth-child(9) selector.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+    <div class="parent">
+      <div class="child">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      </div>
+    </div>
+
+    <div class="parent2">
+        <div class="child2">
+            <div class="grandchild2">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </div>
+        </div>
+      </div>
+
+    <div class="box">
+        <div class="one">One</div>
+        <div class="two">Two</div>
+        <div class="three">Three
+            <br>has
+            <br>extra
+            <br>text
+        </div>
+    </div>
+
+
+
+
+
+  </body>
+</html>

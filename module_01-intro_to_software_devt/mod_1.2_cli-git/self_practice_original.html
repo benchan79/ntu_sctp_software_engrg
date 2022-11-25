@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style>
+      div {
+        margin: 50px;
+      }
+
+      #elementTwo {
+        padding-top: 100px;
+        background-color: cyan;
+      }
+
+      .elementThree {
+        padding: 10px;
+        background-color: aquamarine;
+        text-shadow: 1px 1px white;
+        border: gray solid 2px;
+        border-radius: 10px;
+      }
+
+      div:nth-child(6) {
+        color: red;
+      }
+
+      .parent {
+        border: purple 8px solid;
+        margin: 0;
+        width: 500px;
+      }
+
+      .child {
+        border: mediumblue 8px solid;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Developers' Tool</h1>
+    <p>
+      To launch developers' tool, right click on the page and choose inspect.
+    </p>
+    <div>What is the right margin of this element?</div>
+    <div id="elementTwo">What is the top padding of this element?</div>
+    <div class="elementThree">
+      What is the css name of this element and the css content?
+    </div>
+    <div>What is the css selector for this element?</div>
+    <div class="parent">
+      <div class="child">
+        Keep the blue box withiin the purple box using the box-sizing property.
+        You can edit the css code on the developer's tool.
+      </div>
+    </div>
+  </body>
+</html>
