@@ -1,0 +1,28 @@
+p {
+    background-color: lightgreen;
+    padding: 10px;
+    border: green solid 5px;
+}
+
+li {
+    color:darkgreen;
+}
+
+h2 {
+    font-style:bold;
+}
+
+img {
+    opacity: 0.8;
+    border-radius: 50%;
+}
+
+.avatar {
+    width:120px;
+}
+
+div {
+    margin: 50px;
+    height: auto;
+    width: 600px;
+}
