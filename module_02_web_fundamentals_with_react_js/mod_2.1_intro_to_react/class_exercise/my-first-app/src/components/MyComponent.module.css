@@ -1,0 +1,21 @@
+.heading {
+    color: red;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.bodyText {
+    color: blue;
+}
+
+/* rem stands for “root em”, 
+a unit of measurement that represents 
+the font size of the root element. 
+This means that 1rem equals the font size of 
+the html element, which for most browsers has 
+a default value of 16px.
+
+The difference between rem units and em units is
+that em units are relative to the font size of 
+their own element, not the root element.
+*/
