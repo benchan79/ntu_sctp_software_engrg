@@ -1,0 +1,62 @@
+html, body {
+	margin: 0px;
+	height: 100%;
+  width: auto;
+}
+
+body {
+	background-color: rgb(33, 31, 31);
+	font-family: Helvetica, Arial, sans-serif;
+  text-align: left;
+}
+
+#root {
+	position: relative;
+	height: auto;
+	width: auto;
+  margin: 5px;
+	padding: 5px;
+}
+
+#root div {
+  height: auto;
+	width: auto;
+  padding: 5px;
+  margin: 5px;
+}
+
+header {
+	font-size: 2rem;
+	font-weight: bold;
+	color: aliceblue;
+	margin: 10px;
+}
+
+h2 {
+	margin: 5px;
+}
+
+ul {
+	list-style-type: circle;
+	padding: 10px;
+  	margin: 20px;
+	font-size: 1.2rem;
+}
+
+div #comedy {
+	width: 70%;
+	border-radius: 20px;
+  background-color: rgb(179, 202, 246);
+  padding: 2%;
+}
+
+div #romance {
+	width: 70%;
+	border-radius: 20px;
+  background-color: rgb(233, 193, 193);
+  padding: 2%;
+}
+
+img {
+	width: 20%;
+}

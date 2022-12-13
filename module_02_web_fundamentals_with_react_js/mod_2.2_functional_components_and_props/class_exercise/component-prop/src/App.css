@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 5px;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 10 auto;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 2rem;
+}
+
+h2 {
+  font-size: 1.25em;
+  margin: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: lighter;
+  font-variant: small-caps;
+  margin: 0.5rem;
+}
+
+hr {
+  border-bottom: 0;
+}
+
+.card {
+  width: 100%;
+  margin: 2rem auto;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  background: #ffe46d;
+}
+
+.avatar {
+  margin: 20px;
+  border-radius: 50%;
+}
