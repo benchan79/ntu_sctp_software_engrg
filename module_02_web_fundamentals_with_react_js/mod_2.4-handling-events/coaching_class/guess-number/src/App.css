@@ -1,0 +1,26 @@
+body {
+  text-align: center;
+}
+
+div.attempts {
+	display: inline-block; 
+	text-align: left; 
+	margin-bottom: 20px;
+}
+
+div.debug {
+	text-align: center;
+	}
+ul { 
+	display: inline-block; 
+	text-align: left; 
+	}
+
+	.hide {
+		display: none;
+	}
+	
+	.debug:hover + .hide {
+		display: block;
+		color: red;
+	}
